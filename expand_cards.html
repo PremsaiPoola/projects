@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expand cards</title>
+    <link rel="stylesheet" href="expand_cards.css">
+    <style>
+       .container{
+        border: 2px ;
+            width:1000px ;
+            height: 600px;
+        }
+        div>div{
+            background-image: url("https://media.istockphoto.com/id/903862972/photo/charminar.jpg?s=2048x2048&w=is&k=20&c=YDQTPpyTfb8lnnV4WmrtOVwMmFKPK7sPq8Tv7a_nHBA=");
+        }
+        div>div+div{
+            background-image: url("https://media.istockphoto.com/id/614973596/photo/golconda-fort-area.jpg?s=2048x2048&w=is&k=20&c=Widp1QyFdcBV4SkKTf599pwwOxCpsOOCpFzotIrZFWw=");
+        }
+        div>div+div+div{
+            background-image: url("https://media.istockphoto.com/id/471170455/photo/hi-tec-city-building.jpg?s=2048x2048&w=is&k=20&c=WYIR7PJwt4d5B5rnV2HtxHYF-5DJWUeh3dl8-I7ZTm8=");
+        }
+        div>div+div+div+div{
+            background-image: url("https://media.istockphoto.com/id/177803204/photo/chowmahalla-palace.jpg?s=612x612&w=0&k=20&c=uAmuHXgCMStq5NCr804lnBxOubdgGP0gxJN-9DK0IMc=");
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="panel active">
+          <h3>charminar</h3>
+        </div>
+        <div class="panel">
+          <h3>golconda</h3>
+        </div>
+        <div class="panel">
+          <h3>hitech city</h3>
+        </div>
+        <div class="panel">
+          <h3>chowmahalla</h3>
+        </div>
+       
+  
+      </div>
+      <script src="expand_cards.js"></script>
+</body>
+</html>
